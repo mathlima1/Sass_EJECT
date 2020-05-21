@@ -32,8 +32,11 @@
     
 <details>
 <summary>Estrutura</summary>
-    <p>A estrutura conciste em na organização de arquivos e pastas. É comum que em algum momento da nossa aplicação tenhamos um código  CSS enorme, mesmo que aja um esforço constante em evitar isso.Por isso no sass é considerado uma boa pratica separar os arquivos em componentes para facilitar tanto a escrita do código durante o desenvolvimento quanto em manutenções posteriores. Ao final vc vai notar que mesmo com varios arquivos .scss a sua aplicação estará rodando apenas um arquivo CSS</p>
-   <img src="./img/pastas.png">
+    <br>
+    <img src="./img/pastas.png" align="right">
+    <p> A estrutura conciste em na organização de arquivos e pastas. É comum que em algum momento da nossa aplicação tenhamos um código  CSS enorme, mesmo que aja um esforço constante em evitar isso.Por isso no sass é considerado uma boa pratica separar os arquivos em componentes para facilitar tanto a escrita do código durante o desenvolvimento quanto em manutenções posteriores. Ao final vc vai notar que mesmo com varios arquivos .scss a sua aplicação estará rodando apenas um arquivo CSS</p>
+    <br>
+    <p> Acima vemos uma pasta CSS, nela cara uma pasta chamada components que irá conter cada componente da aplicação. O arquivo main ficará dentro da pasta CSS, ele srá o responsavel por receber os componentes e juntar em um unico arquivo. Ao fim vcs vão entender como isso vai acontecer.</p>    
 </details>
     
 <details>
