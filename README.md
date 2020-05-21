@@ -34,9 +34,9 @@
 <summary>Estrutura</summary>
     <br>
     <img src="./img/pastas.png" align="right">
-    <p> A estrutura conciste em na organização de arquivos e pastas. É comum que em algum momento da nossa aplicação tenhamos um código  CSS enorme, mesmo que aja um esforço constante em evitar isso.Por isso no sass é considerado uma boa pratica separar os arquivos em componentes para facilitar tanto a escrita do código durante o desenvolvimento quanto em manutenções posteriores. Ao final vc vai notar que mesmo com varios arquivos .scss a sua aplicação estará rodando apenas um arquivo CSS.</p>
+    <p> A estrutura conciste em na organização de arquivos e pastas. É comum que em algum momento da nossa aplicação tenhamos um código  CSS enorme, mesmo que aja um esforço constante em evitar isso.Por isso no sass é considerado uma boa pratica separar os arquivos em componentes para facilitar tanto a escrita do código durante o desenvolvimento quanto em manutenções posteriores. Ao final vc vai notar que mesmo com varios arquivos .scss a sua aplicação estará rodando apenas um arquivo CSS.
     <br>
-    <p> Podemos ver uma pasta CSS, nela criamos uma pasta chamada components que irá conter cada componente da aplicação. O arquivo main ficará dentro da pasta CSS, ele será o responsavel por receber os componentes e juntar em um unico arquivo. Ao fim vocës vão entender como isso vai acontecer. Lembrando que não é uma convenção, vc pode usar a estrutura que lhe agradar.</p>    
+    Podemos ver uma pasta CSS, nela criamos uma pasta chamada components que irá conter cada componente da aplicação. O arquivo main ficará dentro da pasta CSS, ele será o responsavel por receber os componentes e juntar em um unico arquivo. Ao fim vocës vão entender como isso vai acontecer. Lembrando que não é uma convenção, vc pode usar a estrutura que lhe agradar.</p>   
 </details>
     
 <details>
@@ -49,18 +49,20 @@
 <summary>@Import</summary>
     <br>
     <p>Como dito no último tópico nó importaremos todos os arquivos para dentro do nosso arquivo principal, e para fazer isso usamos o @import</p>
-    ` ` `
-        @import "_navbar";
-        @import "_quemSomos";
-        @import "_parceiros";
-        @import "_footer";
-    ` ` `
+    ```
+    @import "_navbar";/
+    @import "_quemSomos";
+    @import "_parceiros";
+    @import "_footer";
+    ```
+    <p>Assim nosso arquivo principal (main.scss ou style.scss) teria a unica responsabilidade de juntar todos os arquivos e compilar em um único CSS também</p>
 </details>
 
 <details>
 <summary>Variaveis</summary>
-```
-```
+    <br>
+    <p>O uso de váriaveis ja é possivel no CSS moderno mas também é algo importante de freezar sobre o sass. Essa é uma funcionalidade muito valiosa .</p>
+    <p>Podemos por exemplo definir cores, conteúdos de texto e números em variavel. Assim, sempre que quisermos usar aquele contúdo basta chamar a variavel.<br> A utilidade disso esta na manutenção, pois caso queira modificar o seu valor, so precisa modificar na variavel que ele será modificado em todos os lugares que foi usado</p>
 </details>
 
 <details>
