@@ -49,12 +49,12 @@
 <summary>@Import</summary>
     <br>
     <p>Como dito no último tópico nó importaremos todos os arquivos para dentro do nosso arquivo principal, e para fazer isso usamos o @import</p>
-    ```
-    @import "_navbar";
-    @import "_quemSomos";
-    @import "_parceiros";
+    <blockquote>
+    @import "_navbar";<br>
+    @import "_quemSomos";<br>
+    @import "_parceiros";<br>
     @import "_footer";
-    ```
+    </blockquote>
     <p>Assim nosso arquivo principal (main.scss ou style.scss) teria a unica responsabilidade de juntar todos os arquivos e compilar em um único CSS também</p>
 </details>
 
@@ -70,18 +70,11 @@
 
 <details>
 <summary>Encadeamento/Aninhamento</summary>
-    <p>É comum durante o dsenvolvimento nos depararmos com estruturas parecidas com essa</p>
-    <blockquote>
-        .menu-principal {
-
-        }
-        .menu-princial ul {
-
-        }
-        .menu-princpal ul li{
-
-        }
-    </blockquote>
+    <p>É comum durante o dsenvolvimento nos depararmos com estruturas parecidas com essa:</p>
+    <img src="./img/aninhamento_1.png" align="center">
+    <p>E apesar ed comum a estrutura tem uma escrita trabalhosa e pouco produtiva, levando ao uso repetitivo do Ctrl+C Ctrl+v. Para resolver isso o sass vem cm uma funcionalidade de estrutura de aninhamento, veja o exemplo acima escrito em Sass:</p>
+    <img src="./img/aninhamento_2.png" align="center">
+    
 </details>
 
 <details>
@@ -91,7 +84,7 @@
 </details>
 
 <details>
-<summary>Extends e PLaceholder</summary>
+<summary>Extends e Placeholder</summary>
 ```
 ```
 </details>
