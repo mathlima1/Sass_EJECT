@@ -50,7 +50,7 @@
     <br>
     <p>Como dito no último tópico nó importaremos todos os arquivos para dentro do nosso arquivo principal, e para fazer isso usamos o @import</p>
     ```
-    @import "_navbar";/
+    @import "_navbar";
     @import "_quemSomos";
     @import "_parceiros";
     @import "_footer";
@@ -62,13 +62,27 @@
 <summary>Variaveis</summary>
     <br>
     <p>O uso de váriaveis ja é possivel no CSS moderno mas também é algo importante de freezar sobre o sass. Essa é uma funcionalidade muito valiosa .</p>
-    <p>Podemos por exemplo definir cores, conteúdos de texto e números em variavel. Assim, sempre que quisermos usar aquele contúdo basta chamar a variavel.<br> A utilidade disso esta na manutenção, pois caso queira modificar o seu valor, so precisa modificar na variavel que ele será modificado em todos os lugares que foi usado</p>
+    <code>$nome_da_variavel : Conteúdo</code>
+    <p>Podemos por exemplo definir cores, conteúdos de texto e números em variavel. Assim, sempre que quisermos usar aquele contúdo basta chamar a variavel.
+    <br>
+    A utilidade disso esta na manutenção, pois caso queira modificar o seu valor, so precisa modificar na variavel que ele será modificado em todos os lugares que foi usado</p>
 </details>
 
 <details>
-<summary>Encadeamento</summary>
-```
-```
+<summary>Encadeamento/Aninhamento</summary>
+    <p>É comum durante o dsenvolvimento nos depararmos com estruturas parecidas com essa</p>
+    <blockquote>
+    .menu-principal {
+        position: absolute;
+        right: 0;
+        top: -.05em;
+        font-size: 1.2em;
+        font-weight: lighter;
+    }
+
+    .menu-princial ul {
+    }
+    </blockquote>
 </details>
 
 <details>
