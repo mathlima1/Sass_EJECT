@@ -72,16 +72,15 @@
 <summary>Encadeamento/Aninhamento</summary>
     <p>É comum durante o dsenvolvimento nos depararmos com estruturas parecidas com essa</p>
     <blockquote>
-    .menu-principal {
-        position: absolute;
-        right: 0;
-        top: -.05em;
-        font-size: 1.2em;
-        font-weight: lighter;
-    }
+        .menu-principal {
 
-    .menu-princial ul {
-    }
+        }
+        .menu-princial ul {
+
+        }
+        .menu-princpal ul li{
+
+        }
     </blockquote>
 </details>
 
