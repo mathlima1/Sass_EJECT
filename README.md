@@ -89,8 +89,14 @@
 
 <details>
 <summary>Extends e Placeholder</summary>
-```
-```
+    <br>
+    <p>Os placeholders surgem com mais uma alternativa para evitar repetição de código. Ele ajuda a criar aquela estrura de virgulas que ja conhecemos do CSS:</p>
+    <img src="./img/virgulas.png">
+    <p>Apesar dessa estrutura ser considerada uma boa pratica, ela sempre tem que ser feita na mão. O placeholder e o Extend do sass vem pra automatizar a criação delas. Veja abaixo a criação de um placeholder para box-shadow(de novo).</p>
+    <img src="./img/placeholder.png" align="justify">
+    <p>Para ultilizar ele basta usar o Extend nos elemento que deseja acrescetar o placeholder</p>
+    <img src="./img/extend.png">
+    <p>Usar isso irá fazeruma estrutura coo a da primeira imagem, e caso queira alterar algo bast altera no código do placeholer</p>
 </details>
 
 <details>
