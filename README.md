@@ -70,17 +70,21 @@
 
 <details>
 <summary>Encadeamento/Aninhamento</summary>
+    <br>
     <p>É comum durante o dsenvolvimento nos depararmos com estruturas parecidas com essa:</p>
-    <img src="./img/aninhamento_1.png" align="center">
+    <img src="./img/aninhamento_1.png" align="justify">
     <p>E apesar ed comum a estrutura tem uma escrita trabalhosa e pouco produtiva, levando ao uso repetitivo do Ctrl+C Ctrl+v. Para resolver isso o sass vem cm uma funcionalidade de estrutura de aninhamento, veja o exemplo acima escrito em Sass:</p>
-    <img src="./img/aninhamento_2.png" align="center">
-    
+    <img src="./img/aninhamento_2.png" align="justify">
+    <p>A segunda estrutura edpois de compilada será igual a primeira, a diferença é que na hora de escrever ela, você não precisou repetir nada.</p>
 </details>
 
 <details>
 <summary>Mixins</summary>
-```
-```
+    <br>
+    <p>Os mixins são estruturas que basicamente servem pra guardar um trecho de código para que ele seja ultilizado em outras partes sem a necessidade de escrever ele sempre. Um bom exemplo de código que sempre repetimos é o box shadow, abaixo a estrutura de um mixin do box-shadw</p>
+    <img src="./img/box_shadow.png" align="justify">
+    <p>Para incluir ele em qualquer ponto do seu código, basta usar a sintaxe abaixo no lugar que quiser</p>
+    <img src="./img/include.png" align="justify">
 </details>
 
 <details>
