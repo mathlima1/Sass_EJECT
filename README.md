@@ -73,9 +73,18 @@
     <br>
     <p>É comum durante o dsenvolvimento nos depararmos com estruturas parecidas com essa:</p>
     <img src="./img/aninhamento_1.png" align="justify">
-    <p>E apesar ed comum a estrutura tem uma escrita trabalhosa e pouco produtiva, levando ao uso repetitivo do Ctrl+C Ctrl+v. Para resolver isso o sass vem cm uma funcionalidade de estrutura de aninhamento, veja o exemplo acima escrito em Sass:</p>
+    <p>E apesar de comum a estrutura tem uma escrita trabalhosa e pouco produtiva, levando ao uso repetitivo do Ctrl+C Ctrl+v. Para resolver isso o sass vem com uma funcionalidade de estrutura de aninhamento, veja o exemplo acima escrito em Sass:</p>
     <img src="./img/aninhamento_2.png" align="justify">
     <p>A segunda estrutura edpois de compilada será igual a primeira, a diferença é que na hora de escrever ela, você não precisou repetir nada.</p>
+</details>
+
+<details>
+<summary>Referecing</summary>
+    <br>
+    <p>Vimos acima uma forma fácil e de aninhar estruturas. O referecing veio pra referenciar elemntos dentro dessa estrutura. A estrutura abaixo mostra o hover no CSS, no qual é necessario uma nova estrutura</p>
+    <img src="./img/hover_classic.png">
+    <p>No sass podemos usar o prefixo &, para referenciar um elemento que veio antes dele.</p>
+    <img src="./img/referecing.png">
 </details>
 
 <details>
@@ -101,24 +110,29 @@
 
 <details>
 <summary>Condicionais</summary>
-```
-```
-</details>
-
-<details>
-<summary>Repetições</summary>
-```
-```
-</details>
-
-<details>
-<summary>Referecing</summary>
-```
-```
+    <br>
+    <p>As condicionais em Sass funciona de forma similar às linguagens de programação mais comuns. Aquele velho if else segue a mesma lógica. Sempre passamos uma condição, se ela for verdadeira o bloco de código daquela estrutura será executado. Caso seja falsa temos a opção de ultilizar o else para passar outro resultado</p>
+    <img src="./img/if.png">
+    <p>No exemplo acima vemo que inicialmente(linha 1) a variavel "$circle" tem seu valor inicial como false. o If vai verificar se aquela variavel tem valor verdadeiro. caso tenha será executado o código do border-radius.
+    <br>
+    Perceba que na última linha, ao incluir o mixin o valor da variavel circle (naquele escopo) como true, assim o código do border-radius será executado por ele. 
+    </p>
 </details>
 
 <details>
 <summary>Funções</summary>
-```
-```
+    <br>
+    <p>Funcçoes são blocos de coódigo que executam determinada função, como é dito em todas as linguagens de programação. No sass não é diferente, podemos criar um certo bloco de código para executar determinada função, e chama-lo quando for necessário. Uma função sempre vai retornar alguma coisa, diferente dos mixins que entrega um trecho de código. Veja o exemplo abaixo:</p>
+    <img src="./img/function.png">
 </details>
+
+<h2>Referências</h2>
+<a href="https://cursos.alura.com.br/course/sass" target="_blank">
+    <img src="./img/referencia-1.png" width="631px">
+</a>
+<a href="https://youtu.be/BaI8dHUthLA" target="_blank">
+    <img src="./img/referencia-2.png">
+</a>
+<a href="https://youtu.be/C8KlabGtE8Y" target="_blank">
+    <img src="./img/referencia-3.png">
+</a>
