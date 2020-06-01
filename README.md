@@ -7,7 +7,7 @@
 <ul>
     <li>Simplificar e organizar melhor o código;</li>
     <li>Melhorar e facilitar a manutenção;</li>
-    <li>Ajuda na compatibilidade com múltiplos navegadores;</li>
+    <li>Ajudar na compatibilidade com múltiplos navegadores;</li>
     <li>Possibilidade de programar com CSS: Variáveis, funções, condições e repetições;</li>
 </ul>
 <h2>O que é o Sass?</h2>
